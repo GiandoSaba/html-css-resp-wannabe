@@ -71,3 +71,38 @@ img {
 .clear {
   clear: both;
 }
+
+@media screen and (max-width: 420px) {
+  .row {
+    width: 100%;
+    margin: 0;
+    padding: 5px 0;
+  }
+
+  h1 {
+    margin: 0;
+  }
+  
+  #lezioni .row > .left,
+  #lezioni .row>.right,
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right {
+    float: none;
+    width: 100%;
+  }
+
+  body {
+    margin: 0;
+  }
+
+  #lezioni,
+  #why {
+    background-color: #F2F2CD;
+  }
+
+  #steps {
+    background-color: transparent;
+  }
+  
+}
